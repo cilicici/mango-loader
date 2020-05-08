@@ -33,9 +33,9 @@ describe('loader', () => {
       resourcePath: ''
     }]
 
-    expect(getFileName(fileObjects[0])).toBe('file.png')
-    expect(getFileName(fileObjects[1])).toBe('file.bin')
-    expect(getFileName(fileObjects[2])).toBe('file.bin')
+    expect(getFileName(fileObjects[0])).toBe('file.png');
+    expect(getFileName(fileObjects[1])).toBe('file.bin');
+    expect(getFileName(fileObjects[2])).toBe('file.bin');
   })
 
   it('should work with "ModuleConcatenationPlugin" plugin', async () => {
