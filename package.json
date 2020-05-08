@@ -11,6 +11,7 @@
   "engines": {
     "node": ">= 10.13.0"
   },
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "scripts": {
     "start": "npm run build -- -w",
     "clean": "del-cli dist",
