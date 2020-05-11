@@ -1,6 +1,6 @@
 {
   "name": "mango-loader",
-  "version": "1.7.0",
+  "version": "1.8.0",
   "description": "A file loader module for webpack",
   "license": "MIT",
   "repository": "mango-loader",
