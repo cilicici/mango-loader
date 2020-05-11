@@ -22,13 +22,13 @@ export function getFileName(baseObject) {
   const parsed = path.parse(baseObject.resourcePath);
 
     if (parsed.ext) {
-      ext = parsed.ext.substr(1);
+      ext = parsed.ext;
     }
 
     if (parsed.dir) {
       basename = parsed.name;
     }
-  return  `${basename}.${ext}`
+  return  `${basename}${ext}`
 }
 
 export const raw = true;
