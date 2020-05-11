@@ -17,7 +17,7 @@ export default function loader(content) {
   return `${esModule ? 'export default' : 'module.exports ='} ${publicPath};`;}
 
 export function getFileName(baseObject) {
-  let ext = 'js';
+  let ext = '.js';
   let basename = 'file';
   const parsed = path.parse(baseObject.resourcePath);
 
